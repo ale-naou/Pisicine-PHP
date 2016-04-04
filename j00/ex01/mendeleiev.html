@@ -1,0 +1,551 @@
+<!--
+                                                          :::      ::::::::
+     mendeleiev.html                                    :+:      :+:    :+:
+                                                      +:+ +:+         +:+
+     By: ale-naou <ale-naou@student.42.fr>          +#+  +:+       +#+
+                                                  +#+#+#+#+#+   +#+
+     Created: 2016/03/31 13:42:35 by ale-naou          #+#    #+#
+     Updated: 2016/04/04 09:24:19 by ale-naou         ###   ########.fr
+-->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mendeleiev</title>
+		<style>
+			table {	width: 100%;
+					height: 100%;}
+			td { width: 5%;
+				 height: 10%;
+				 background-color: white;}
+			.nonmetal { background-color: #81F781;}
+			.noblegas { background-color: #A9F5F2;}
+			.halogenes { background-color: #F3F781;}
+			.alkalinmet { background-color: #FA5858;}
+			.alkearthmet { background-color: #ECCD99;}
+			.metalloid { background-color: #BAA17A;}
+			.posttransmet { background-color: #ADADAD;}
+			.transmet { background-color: #FFAFAF;}
+			.lantanides { background-color: #E367CF;}
+			.actinides { background-color: #E986B0;}
+			.symbch	{ text-align: center;
+				     font-weight: bold;
+					  font-size: 200%;}
+			.atomnum { text-align: left;
+					   font-size: 100%;}
+			.atommass { text-align-last: right;
+						font-size: 50%;}
+			#emptyrow { column-span: 18;
+						height: 20px;}
+	</style>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td class="nonmetal">
+					<div class="atommass">1,00794</div>
+					<div class="symbch">H</div>
+					<div class="atomnum">1</div></td>
+				<td colspan="16"></td>
+				<td class="noblegas">
+					<div class="atommass">4,002602</div>
+					<div class="symbch">He</div>
+					<div class="atomnum">2</div></td>
+			</tr>
+			<tr>
+				<td class="alkalinmet">
+					<div class="atommass">6,941</div>
+					<div class="symbch">Li</div>
+					<div class="atomnum">3</div></td>
+				<td class="alkearthmet">
+					<div class="atommass">9,012182</div>
+					<div class="symbch">Be</div>
+					<div class="atomnum">4</div></td>
+				<td colspan="10"></td>
+				<td class="metalloid">
+					<div class="atommass">10,811</div>
+					<div class="symbch">B</div>
+					<div class="atomnum">5</div></td>
+				<td class="nonmetal">
+					<div class="atommass">12,0107</div>
+					<div class="symbch">C</div>
+					<div class="atomnum">6</div></td>
+				<td class="nonmetal">
+					<div class="atommass">14,00674</div>
+					<div class="symbch">N</div>
+					<div class="atomnum">7</div></td>
+				<td class="nonmetal">
+					<div class="atommass">15,9994</div>
+					<div class="symbch">O</div>
+					<div class="atomnum">8</div></td>
+				<td class="halogenes">
+					<div class="atommass">18,9984032</div>
+					<div class="symbch">F</div>
+					<div class="atomnum">9</div></td>
+				<td class="noblegas">
+					<div class="atommass">20,1797</div>
+					<div class="symbch">Ne</div>
+					<div class="atomnum">10</div></td>
+			</tr>
+			<tr>
+				<td class="alkalinmet">
+					<div class="atommass">22,98976928</div>
+					<div class="symbch">Na</div>
+					<div class="atomnum">11</div></td>
+				<td class="alkearthmet">
+					<div class="atommass">24,3050</div>
+					<div class="symbch">Mg</div>
+					<div class="atomnum">12</div></td>
+				<td colspan="10"></td>
+				<td class="posttransmet">
+					<div class="atommass">26,9815386</div>
+					<div class="symbch">Al</div>
+					<div class="atomnum">13</div></td>
+				<td class="metalloid">
+					<div class="atommass">28,0855</div>
+					<div class="symbch">Si</div>
+					<div class="atomnum">14</div></td>
+				<td class="nonmetal">
+					<div class="atommass">30,973762</div>
+					<div class="symbch">P</div>
+					<div class="atomnum">15</div></td>
+				<td class="nonmetal">
+					<div class="atommass">32,066</div>
+					<div class="symbch">S</div>
+					<div class="atomnum">16</div></td>
+				<td class="halogenes">
+					<div class="atommass">35,4527</div>
+					<div class="symbch">Cl</div>
+					<div class="atomnum">17</div></td>
+				<td class="noblegas">
+					<div class="atommass">39,948</div>
+					<div class="symbch">Ar</div>
+					<div class="atomnum">18</div></td>
+			</tr>
+			<tr>
+				<td class="alkalinmet">
+					<div class="atommass">39,0983</div>
+					<div class="symbch">K</div>
+					<div class="atomnum">19</div></td>
+				<td class="alkearthmet">
+					<div class="atommass">40,078</div>
+					<div class="symbch">Ca</div>
+					<div class="atomnum">20</div></td>
+				<td class="transmet">
+					<div class="atommass">44,955912</div>
+					<div class="symbch">Sc</div>
+					<div class="atomnum">21</div></td>
+				<td class="transmet">
+					<div class="atommass">47,867</div>
+					<div class="symbch">Ti</div>
+					<div class="atomnum">22</div></td>
+				<td class="transmet">
+					<div class="atommass">50,9415</div>
+					<div class="symbch">V</div>
+					<div class="atomnum">23</div></td>
+				<td class="transmet">
+					<div class="atommass">51,9961</div>
+					<div class="symbch">Cr</div>
+					<div class="atomnum">24</div></td>
+				<td class="transmet">
+					<div class="atommass">54,938045</div>
+					<div class="symbch">Mn</div>
+					<div class="atomnum">25</div></td>
+				<td class="transmet">
+					<div class="atommass">55,845</div>
+					<div class="symbch">Fe</div>
+					<div class="atomnum">26</div></td>
+				<td class="transmet">
+					<div class="atommass">58,933195</div>
+					<div class="symbch">Co</div>
+					<div class="atomnum">27</div></td>
+				<td class="transmet">
+					<div class="atommass">58,6934</div>
+					<div class="symbch">Ni</div>
+					<div class="atomnum">28</div></td>
+				<td class="transmet">
+					<div class="atommass">63,546</div>
+					<div class="symbch">Cu</div>
+					<div class="atomnum">29</div></td>
+				<td class="transmet">
+					<div class="atommass">65,39</div>
+					<div class="symbch">Zn</div>
+					<div class="atomnum">30</div></td>
+				<td class="posttransmet">
+					<div class="atommass">69,723</div>
+					<div class="symbch">Ga</div>
+					<div class="atomnum">31</div></td>
+				<td class="metalloid">
+					<div class="atommass">72,61</div>
+					<div class="symbch">Ge</div>
+					<div class="atomnum">32</div></td>
+				<td class="metalloid">
+					<div class="atommass">74,92160</div>
+					<div class="symbch">As</div>
+					<div class="atomnum">33</div></td>
+				<td class="nonmetal">
+					<div class="atommass">78,96</div>
+					<div class="symbch">Se</div>
+					<div class="atomnum">34</div></td>
+				<td class="halogenes">
+					<div class="atommass">79,904</div>
+					<div class="symbch">Br</div>
+					<div class="atomnum">35</div></td>
+				<td class="noblegas">
+					<div class="atommass">83,80</div>
+					<div class="symbch">Kr</div>
+					<div class="atomnum">36</div></td>
+			</tr>
+			<tr>
+				<td class="alkalinmet">
+					<div class="atommass">85,4678</div>
+					<div class="symbch">Rb</div>
+					<div class="atomnum">37</div></td>
+				<td class="alkearthmet">
+					<div class="atommass">87,62</div>
+					<div class="symbch">Sr</div>
+					<div class="atomnum">38</div></td>
+				<td class="transmet">
+					<div class="atommass">88,90585</div>
+					<div class="symbch">Y</div>
+					<div class="atomnum">39</div></td>
+				<td class="transmet">
+					<div class="atommass">91,224</div>
+					<div class="symbch">Zr</div>
+					<div class="atomnum">40</div></td>
+				<td class="transmet">
+					<div class="atommass">92,90638</div>
+					<div class="symbch">Nb</div>
+					<div class="atomnum">41</div></td>
+				<td class="transmet">
+					<div class="atommass">95,94</div>
+					<div class="symbch">Mo</div>
+					<div class="atomnum">42</div></td>
+				<td class="transmet">
+					<div class="atommass">97,9072</div>
+					<div class="symbch">Tc</div>
+					<div class="atomnum">43</div></td>
+				<td class="transmet">
+					<div class="atommass">101,07</div>
+					<div class="symbch">Ru</div>
+					<div class="atomnum">44</div></td>
+				<td class="transmet">
+					<div class="atommass">102,90550</div>
+					<div class="symbch">Rh</div>
+					<div class="atomnum">45</div></td>
+				<td class="transmet">
+					<div class="atommass">106,42</div>
+					<div class="symbch">Pd</div>
+					<div class="atomnum">46</div></td>
+				<td class="transmet">
+					<div class="atommass">107,8682</div>
+					<div class="symbch">Ag</div>
+					<div class="atomnum">47</div></td>
+				<td class="transmet">
+					<div class="atommass">112,411</div>
+					<div class="symbch">Cd</div>
+					<div class="atomnum">48</div></td>
+				<td class="posttransmet">
+					<div class="atommass">114,818</div>
+					<div class="symbch">In</div>
+				 	<div class="atomnum">49</div></td>
+				<td class="posttransmet">
+					<div class="atommass">118,710</div>
+					<div class="symbch">Sn</div>
+					<div class="atomnum">50</div></td>
+				<td class="metalloid">
+					<div class="atommass">121,760</div>
+					<div class="symbch">Sb</div>
+					<div class="atomnum">51</div></td>
+				<td class="metalloid">
+					<div class="atommass">127,60</div>
+					<div class="symbch">Te</div>
+					<div class="atomnum">52</div></td>
+				<td class="halogenes">
+					<div class="atommass">126,90447</div>
+					<div class="symbch">I</div>
+					<div class="atomnum">53</div></td>
+				<td class="noblegas">
+					<div class="atommass">131,29</div>
+					<div class="symbch">Xe</div>
+					<div class="atomnum">54</div></td>
+			</tr>
+			<tr>
+				<td class="alkalinmet">
+					<div class="atommass">132,9054519</div>
+					<div class="symbch">Cs</div>
+					<div class="atomnum">55</div></td>
+				<td class="alkearthmet">
+					<div class="atommass">137,327</div>
+					<div class="symbch">Ba</div>
+					<div class="atomnum">56</div></td>
+				<td class="lantanides">
+					<div class="symbch">*</div>
+					<div class="atomnum">57-71</div></td>
+				<td class="transmet">
+					<div class="atommass">178,49</div>
+					<div class="symbch">Hf</div>
+					<div class="atomnum">72</div></td>
+				<td class="transmet">
+					<div class="atommass">180,94788</div>
+					<div class="symbch">Ta</div>
+					<div class="atomnum">73</div></td>
+				<td class="transmet">
+					<div class="atommass">183,84</div>
+					<div class="symbch">W</div>
+					<div class="atomnum">74</div></td>
+				<td class="transmet">
+					<div class="atommass">186,207</div>
+					<div class="symbch">Re</div>
+					<div class="atomnum">75</div></td>
+				<td class="transmet">
+					<div class="atommass">190,23</div>
+					<div class="symbch">Os</div>
+					<div class="atomnum">76</div></td>
+				<td class="transmet">
+					<div class="atommass">197,217</div>
+					<div class="symbch">Ir</div>
+					<div class="atomnum">77</div></td>
+				<td class="transmet">
+					<div class="atommass">195,084</div>
+					<div class="symbch">Pt</div>
+					<div class="atomnum">78</div></td>
+				<td class="transmet">
+					<div class="atommass">196,966569</div>
+					<div class="symbch">Au</div>
+					<div class="atomnum">79</div></td>
+				<td class="transmet">
+					<div class="atommass">200,59</div>
+					<div class="symbch">Hg</div>
+					<div class="atomnum">80</div></td>
+				<td class="posttransmet">
+					<div class="atommass">204,3833</div>
+					<div class="symbch">Tl</div>
+					<div class="atomnum">81</div></td>
+				<td class="posttransmet">
+					<div class="atommass">207,2</div>
+					<div class="symbch">Pb</div>
+					<div class="atomnum">82</div></td>
+				<td class="posttransmet">
+					<div class="atommass">208,98040</div>
+					<div class="symbch">Bi</div>
+					<div class="atomnum">83</div></td>
+				<td class="metalloid">
+					<div class="atommass">[208,9824]</div>
+					<div class="symbch">Po</div>
+					<div class="atomnum">84</div></td>
+				<td class="halogenes">
+					<div class="atommass">[209,9871]</div>
+					<div class="symbch">At</div>
+					<div class="atomnum">85</div></td>
+				<td class="noblegas">
+					<div class="atommass">[222,0176]</div>
+					<div class="symbch">Rn</div>
+					<div class="atomnum">86</div></td>
+			</tr>
+			<tr>
+				<td class="alkalinmet">
+					<div class="atommass">[223,0197]</div>
+					<div class="symbch">Fr</div>
+					<div class="atomnum">87</div></td>
+				<td class="alkearthmet">
+					<div class="atommass">[226,0254]</div>
+					<div class="symbch">Ra</div>
+					<div class="atomnum">88</div></td>
+				<td class="actinides">
+					<div class="symbch">**</div>
+					<div style="font-size:75%;">89-103</div></td>
+				<td class="transmet">
+					<div class="atommass">[263,1125]</div>
+					<div class="symbch">Rf</div>
+					<div class="atomnum">104</div></td>
+				<td class="transmet">
+					<div class="atommass">[262,1144]</div>
+					<div class="symbch">Db</div>
+					<div class="atomnum">105</div></td>
+				<td class="transmet">
+					<div class="atommass">[266,1219]</div>
+					<div class="symbch">Sg</div>
+					<div class="atomnum">106</div></td>
+				<td class="transmet">
+					<div class="atommass">[264,1247]</div>
+					<div class="symbch">Bh</div>
+					<div class="atomnum">107</div></td>
+				<td class="transmet">
+					<div class="atommass">[269,1341]</div>
+					<div class="symbch">Hs</div>
+					<div class="atomnum">108</div></td>
+				<td class="transmet">
+					<div class="atommass">[268,1388]</div>
+					<div class="symbch">Mt</div>
+					<div class="atomnum">109</div></td>
+				<td class="transmet">
+					<div class="atommass">[272,1463]</div>
+					<div class="symbch">Ds</div>
+					<div class="atomnum">110</div></td>
+				<td class="transmet">
+					<div class="atommass">[272,1535]</div>
+					<div class="symbch">Rg</div>
+					<div class="atomnum">111</div></td>
+				<td class="transmet">
+					<div class="atommass">[277]</div>
+					<div class="symbch">Cn</div>
+					<div class="atomnum">112</div></td>
+				<td class="posttransmet">
+					<div class="atommass">[284]</div>
+					<div class="symbch">Uut</div>
+					<div class="atomnum">113</div></td>
+				<td class="posttransmet">
+					<div class="atommass">[289]</div>
+					<div class="symbch">Fl</div>
+					<div class="atomnum">114</div></td>
+				<td class="posttransmet">
+					<div class="atommass">[288]</div>
+					<div class="symbch">Uup</div>
+					<div class="atomnum">115</div></td>
+				<td class="posttransmet">
+					<div class="atommass">[292]</div>
+					<div class="symbch">Lv</div>
+					<div class="atomnum">116</div></td>
+				<td class="halogenes">
+					<div class="atommass">[292]</div>
+					<div class="symbch">Uus</div>
+					<div class="atomnum">117</div></td>
+				<td class="noblegas">
+					<div class="atommass">[294]</div>
+					<div class="symbch">Uuo</div>
+					<div class="atomnum">118</div></td>
+			</tr>
+			<tr id="emptyrow"></tr>
+			<tr>
+				<td colspan="3"></td>
+				<td class="lantanides">
+					<div class="atommass">138,90547</div>
+					<div class="symbch">La</div>
+					<div class="atomnum">57</div></td>
+				<td class="lantanides">
+					<div class="atommass">140,116</div>
+					<div class="symbch">Ce</div>
+					<div class="atomnum">58</div></td>
+				<td class="lantanides">
+					<div class="atommass">140,90765</div>
+					<div class="symbch">Pr</div>
+					<div class="atomnum">59</div></td>
+				<td class="lantanides">
+					<div class="atommass">144,242</div>
+					<div class="symbch">Nd</div>
+					<div class="atomnum">60</div></td>
+				<td class="lantanides">
+					<div class="atommass">[144,9127]</div>
+					<div class="symbch">Pm</div>
+					<div class="atomnum">61</div></td>
+				<td class="lantanides">
+					<div class="atommass">150,36</div>
+					<div class="symbch">Sm</div>
+					<div class="atomnum">62</div></td>
+				<td class="lantanides">
+					<div class="atommass">151,964</div>
+					<div class="symbch">Eu</div>
+					<div class="atomnum">63</div></td>
+				<td class="lantanides">
+					<div class="atommass">157,25</div>
+					<div class="symbch">Gd</div>
+					<div class="atomnum">64</div></td>
+				<td class="lantanides">
+					<div class="atommass">158,92535</div>
+					<div class="symbch">Tb</div>
+					<div class="atomnum">65</div></td>
+				<td class="lantanides">
+					<div class="atommass">162,500</div>
+					<div class="symbch">Dy</div>
+					<div class="atomnum">66</div></td>
+				<td class="lantanides">
+					<div class="atommass">164,93032</div>
+					<div class="symbch">Ho</div>
+					<div class="atomnum">67</div></td>
+				<td class="lantanides">
+					<div class="atommass">167,258</div>
+					<div class="symbch">Er</div>
+					<div class="atomnum">68</div></td>
+				<td class="lantanides">
+					<div class="atommass">168,93421</div>
+					<div class="symbch">Tm</div>
+					<div class="atomnum">69</div></td>
+				<td class="lantanides">
+					<div class="atommass">173,04</div>
+					<div class="symbch">Yb</div>
+					<div class="atomnum">70</div></td>
+				<td class="lantanides">
+					<div class="atommass">174,967</div>
+					<div class="symbch">Lu</div>
+					<div class="atomnum">71</div></td>
+			</tr>
+			<tr>
+				<td colspan="3"></td>
+				<td class="actinides">
+					<div class="atommass">[227,0277]</div>
+					<div class="symbch">Ac</div>
+					<div class="atomnum">89</div></td>
+				<td class="actinides">
+					<div class="atommass">232,03806</div>
+					<div class="symbch">Th</div>
+					<div class="atomnum">90</div></td>
+				<td class="actinides">
+					<div class="atommass">231,03588</div>
+					<div class="symbch">Pa</div>
+					<div class="atomnum">91</div></td>
+				<td class="actinides">
+					<div class="atommass">238,02891</div>
+					<div class="symbch">U</div>
+					<div class="atomnum">92</div></td>
+				<td class="actinides">
+					<div class="atommass">[237,0482]</div>
+					<div class="symbch">Np</div>
+					<div class="atomnum">93</div></td>
+				<td class="actinides">
+					<div class="atommass">[244,0642]</div>
+					<div class="symbch">Pu</div>
+					<div class="atomnum">94</div></td>
+				<td class="actinides">
+					<div class="atommass">[243,0614]</div>
+					<div class="symbch">Am</div>
+					<div class="atomnum">95</div></td>
+				<td class="actinides">
+					<div class="atommass">[247,0703]</div>
+					<div class="symbch">Cm</div>
+					<div class="atomnum">96</div></td>
+				<td class="actinides">
+					<div class="atommass">[247,0703]</div>
+					<div class="symbch">Bk</div>
+					<div class="atomnum">97</div></td>
+				<td class="actinides">
+					<div class="atommass">[251,0796]</div>
+					<div class="symbch">Cf</div>
+					<div class="atomnum">98</div></td>
+				<td class="actinides">
+					<div class="atommass">[252,0830]</div>
+					<div class="symbch">Es</div>
+					<div class="atomnum">99</div></td>
+				<td class="actinides">
+					<div class="atommass">[257,0951]</div>
+					<div class="symbch">Fm</div>
+					<div class="atomnum">100</div></td>
+				<td class="actinides">
+					<div class="atommass">[258,0984]</div>
+					<div class="symbch">Md</div>
+					<div class="atomnum">101</div></td>
+				<td class="actinides">
+					<div class="atommass">[259,1011]</div>
+					<div class="symbch">No</div>
+					<div class="atomnum">102</div></td>
+				<td class="actinides">
+					<div class="atommass">[262,110]</div>
+					<div class="symbch">Lr</div>
+					<div class="atomnum">103</div></td>
+			</tr>
+		</table>
+	</body>
+</html>
